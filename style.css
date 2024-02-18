@@ -1,0 +1,595 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    background-color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact span {
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.contact i {
+    color: orangered;
+    cursor: pointer;
+
+}
+
+/* page1 */
+.page1 {
+    padding: 20px;
+    background-color: rgba(137, 243, 243, 0.672);
+
+}
+
+.page1 ul,
+li {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+.page1 nav,
+h1,
+ul,
+li:hover {
+    color: blue;
+}
+
+.page1 h1 {
+    color: blue;
+    font-size: 30px;
+
+}
+
+.page1 nav {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page1 li {
+    padding-left: 50px;
+}
+
+.page1-intro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.page1-intro p {
+    width: 480px;
+}
+
+.page1-contant1 {
+    padding-top: 50px;
+}
+
+.page1-contant1 h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: 'Lucida Sans';
+    
+}
+
+.page1-contant1 p {
+    padding-top: 30px;
+    font-size: 18px;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+}
+
+.page1-contant1 button {
+    padding: 12px;
+    font-size: 20px;
+    width: 200px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin-left: 100px;
+    color: whitesmoke;
+}
+
+.page1-contant1 button:hover {
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.page1-work {
+    position: absolute;
+    top:770px;
+    left: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+
+}
+
+.page1-work-logo {
+    padding: 40px;
+    box-shadow: 0 0 10px 0;
+    margin-left: 30px;
+    background-color: whitesmoke;
+
+}
+
+.page1-work-logo:hover {
+    background-color: rgb(249, 78, 15);
+    cursor: pointer;
+    color: bisque;
+}
+
+.page1-work-logo img {
+    height: 100px;
+    width: 250px;
+}
+
+.page1-work-logo p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* page2 */
+.page2{
+    display: flex;
+    margin-top: 160px;
+}
+.page2-content1 {
+    padding-top: 150px;
+    padding-left: 90px;
+   
+}
+.page2-content1 h1{
+    color: black;
+    padding-bottom: 20px;
+}
+.page2-content1 p{
+    font-family: arial;
+    padding-bottom: 20px;
+    
+}
+.page2-content1 button{
+    background-color: blue;
+    color: whitesmoke;
+    border: 1px solid blue;
+    width: 200px;
+    font-size: 15px;
+        padding: 5px;
+    font-weight: bold;
+}
+.page2-content1 button:hover{
+    background-color: transparent;
+    color: blue;
+}
+
+/* page3 */
+.page3{
+    margin-top: 50px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(137, 243, 243, 0.672);
+}
+.page3-contant2-img{
+    height: 460px;
+}
+.page3 img{
+    height: 80%;
+}
+.page3-content1{
+    padding-top: 100px;
+}
+.page3-content1 h1{
+    margin-bottom: 40px;
+}
+.page3-content1 p{
+    margin-bottom: 40px;
+}
+.page3-content1 button{
+    padding: 10px;
+    font-size: 17px;
+    width: 200px;
+    background-color: orangered;
+    border-radius: 3px;
+    margin-left: 90px;
+    color: whitesmoke;
+}
+
+.page3-content1 button:hover{
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+}
+/* page4 */
+.page4-heading{
+    margin-top: 50px;
+text-align: center;
+}
+.page4-content{
+    padding-left: 70px;
+}
+.page4-box{
+    margin-top: 30px;
+    width: 360px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 0;
+    padding: 10px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+}
+.page4image{
+    height: 80px;
+}
+.page4 button{
+    margin-top: 40px;
+    width: 200px;
+   margin-left: 559px;
+   background-color: blue;
+   padding: 9px;
+   color: white;
+   border: 1px solid blue;
+
+}
+.page4 button:hover{
+background-color: transparent;
+color: blue;
+border: 1px solid blue;
+}
+/* page5 */
+.page5 h1{
+    margin-top: 60px;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+}
+.page5-sec{
+    margin-left: 150px;
+    display: flex;
+}
+.page5-content{
+    width: 40%;
+    box-shadow: 0 0 12px 0;
+    margin-left: 30px;
+    padding: 20px;
+
+}
+.page1-clientdetaile{
+    display: flex;
+    align-items: center;
+}
+.page5-content img{
+    color: black;
+    border-radius: 50%;
+    
+}
+.page5-content h6{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.page5-content i{
+    color: orange;
+padding-left: 10px;
+}
+.page5-nextpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.page5-nextpage i{
+    background-color: blue;
+margin-left: 10px;
+padding:5px 10px 5px 10px;
+}
+.page6{
+    display: flex;
+    justify-content: space-evenly;
+}
+.page6-content1{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.page6-content1 h1{
+    color: black;
+}
+.page6-content1 input{
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 500px;
+}
+.inputmessage{
+    height: 100px;
+}
+.page6 button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 190px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.page6 button:hover{
+    background: transparent;
+    color: blue;
+}
+.page6 iframe{
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 40px;
+    background-color: rgb(2, 2, 97);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-contact i{
+   
+    margin-top: 50px;
+    background-color: rgb(34, 34, 242);
+    border-radius: 50%;
+    padding: 20px;
+}
+.footer-contact p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer-followus{
+    margin-top: 30px;
+}
+.footer-followus h3{
+font-size: 20px;
+}
+.footer-followus i{
+    padding-left: 10px;
+    margin-top: 12px;
+    color: blue;
+}
+.footer-icon{ 
+    margin-top: 20px;
+    background-color: antiquewhite;
+    width: 120px;
+    margin-left: 550px;
+}
+/* Responcevice set */
+@media screen and (max-width:1200px) {
+    .page1-work {
+    position: absolute;
+    top:930px;
+    left: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    }
+    .page1-work-logo img {
+        height: 50px;
+        width: 100px;
+    }
+    .page1-work-logo p {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .page2{
+        display: flex;
+       padding-top: 100px;
+    }
+    .page4-box{
+        margin-left: 30%;
+    }
+    .page4 button{
+    margin-left: 40%;
+}
+
+}
+
+@media screen and (max-width:999px) {
+    .contact {
+        background-color: black;
+        padding: 10px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .page1 li {
+        padding-left: 10px;
+    }
+    .page1-intro {
+        margin-top: 20px;
+        display:flex;   
+    }
+    .page1-intro p {
+        width: 280px;
+    }
+    .page1-work {
+        position: absolute;
+        top:740px;
+        left: 20px;
+        display: block;
+        height: 140px;
+       padding-left: 20%;
+    }
+    .page1-work-logo {
+        text-align: center;
+       width: 400px;
+        box-shadow: 0 0 10px 0;
+     margin-bottom: 15px;
+        background-color: whitesmoke;
+    
+    }
+    .page1-contant1-img{
+        height: 500px;
+    }
+    .page2{
+        display: flex;
+        margin-top: 600px;
+    }
+    .page1-contant1 p {
+        padding-top: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+    }
+    
+    .page2-content1 {
+        padding-top: 10px;
+        padding-left: 40px;
+    }    
+    .page3-contant2-img{
+        height: 300px;
+    }
+    .page3{
+        margin-top: 50px;
+        padding-top: 150px;
+        display: flex;
+        background-color: rgba(137, 243, 243, 0.672);
+    
+    }
+    .page3 img{
+        height: 60%;
+    }
+    .page3-content1{
+        margin-left: -200px;
+        padding-top: 40px;
+    }
+    .page3-content1 h1{
+        margin-bottom:10px;
+    }
+    .page3-content1 p{
+        margin-bottom: 10px;
+    }
+    .page3-content1 button{
+        padding: 10px;
+        font-size: 17px;
+        width: 200px;
+        background-color: orangered;
+        border-radius: 3px;
+        margin-left: 30px;
+        color: whitesmoke;
+    }
+    .page4-box{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:700px) {
+    .contact {
+        background-color: black;
+        padding: 2px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .page1{
+        padding-left: 5%;
+    }
+    .page1 li {
+        padding-left:5px;
+       
+    }
+    .page1-intro {
+        margin-top: 50px;
+        display:block;   
+    }
+    .page1-intro p {
+        width:100%;
+    }
+    .page1-work {
+        position: absolute;
+        top:1200px;
+        left: 0px;
+        display: block;
+        height: 100px;
+     
+    }
+    .page1-work-logo {
+        text-align: center;
+       width: 100%;
+        box-shadow: 0 0 10px 0;
+     margin-bottom: 15px;
+        background-color: whitesmoke;
+    
+    }
+    .page1-contant1-img{
+       padding-top: 30px;
+        height: 490px;
+    }
+    .page2{
+        display: block;
+        margin-top: 600px;
+    }
+    .page1-contant1 p {
+        padding-top: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+    }
+    
+    .page2-content1 {
+        padding-top: 10px;
+        padding-left: 40px;
+    }    
+    .page1-contant2-img{
+        padding-top: 20px;
+        height: 400px;
+        padding-left: 10%;
+    }
+    .page2-content1 button{
+        margin-left: 15%;
+    }
+    .page3-contant2-img{
+        margin-top: 20px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .professional{
+        display: none;
+    }
+
+    .page3{
+        padding-left: 250px;
+    }
+    .page4-box{
+        margin-left: 0%;
+    }
+    .page4 button{
+        margin-left:20%;
+}
+
+
+.page5-sec{
+   flex-direction: column;
+}
+.page5-content{
+    margin-top: 20px;
+}
+.page1-clientdetaile{
+display: flex;
+flex-direction: column;
+}
+}
